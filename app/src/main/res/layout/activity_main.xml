@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加数据"/>
+
+
+        <Button
+            android:id="@+id/btn_delector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除数据"/>
+
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改数据"/>
+
+
+
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询数据"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_addFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加人脸"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btn_Face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="识别人脸"
+        android:visibility="visible"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启服务"
+            android:visibility="visible"/>
+
+    <ListView
+        android:id="@+id/showDateListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

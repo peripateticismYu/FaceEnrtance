@@ -1,0 +1,2 @@
+include ':app', ':andserverLib'
+project(':andserverLib').projectDir = new File('andserver')
